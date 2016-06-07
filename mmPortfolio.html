@@ -9,10 +9,46 @@
     <link rel="stylesheet" href="css-3-gallery/css/styles.css" />
          <link rel="stylesheet" href="css-3-gallery/css/gallery.css" />
        
+        <HEAD>
+
+<script LANGUAGE="JavaScript">
+<!-- Original:  Nicholas Lupien (smylex@aol.com) -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+
+<!-- Begin
+var rand1 = 0;
+var useRand = 0;
+
+images = new Array;
+images[1] = new Image();
+images[1].src = "/../img/Banana Split Brain.jpg";
+images[2] = new Image();
+images[2].src = "/../img/Asuka.jpg";
+images[3] = new Image();
+images[3].src = "/../img/Ugg.jpg";
+images[4] = new Image();
+images[4].src = "/../img/deerintheForest.jpg";
+images[5] = new Image();
+images[5].src = "/../img/zoom2.jpg";
+
+function swapPic() {
+var imgnum = images.length - 1;
+do {
+var randnum = Math.random();
+rand1 = Math.round((imgnum - 1) * randnum) + 1;
+} while (rand1 == useRand);
+useRand = rand1;
+document.randimg.src = images[useRand].src;
+}
+//  End -->
+</script>
+</HEAD>
         
     </head>
   
-   <body>
+  <body OnLoad="swapPic()">
 <header class="main-header">
     <nav role='navigation'>
   <ul>
@@ -29,7 +65,14 @@
     
     </header>
     
-    <h2></h2>
+    <center>
+<a onClick="swapPic();"><img name="randimg" src="image1.gif"></a><br>
+<p>click to change image<p>
+</center>
+
+
+
+<!-- Script Size:  1.49 KB -->
 
 <h3></h3>
 

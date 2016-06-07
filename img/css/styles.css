@@ -1,0 +1,228 @@
+/* Global */
+
+ body {
+      width: 100%;
+     margin:auto;
+     
+ }
+
+/* Layout */
+
+.main-header{
+ 
+  position:top;
+  width: 100%; /*1000px/ 1000px=1 */
+    background-color: black;
+    height: 160px;
+}
+
+
+h1 {
+    margin: 55px;
+    display:inline-block;
+    height: 50px;
+    float:top;}
+
+h3 {
+    display:inline-block;
+     
+    
+}
+
+.primary-content {
+    
+    padding: 50px 50px; 
+    width: 100%;
+    height: 800px;
+    
+}
+
+
+
+.secondary-content {
+    margin-left: 60px;
+    width: 500px;
+    padding: 50px ;
+           height: 1200px;
+    margin-right: 800px;
+    margin-bottom: 50px;
+}
+.secondary-content ul{
+    position: top;
+}
+
+.secondary col {float: right;height:1000px;}
+
+
+.secondary content {align: top;}
+
+table img{width: 300px;}
+
+/* Typography */
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align:center;
+    font-size:3em;
+    display: inline-block;
+    background:black;
+    padding: 8px;
+}
+h2,h3 {font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align:left;
+     margin-top: 100px;
+   margin-right: 200px;
+    float:right;
+        }
+p 
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+  float: right;
+    
+  letter-spacing: 3px;
+    text-align: left;
+ 
+  padding: 50px; /* 10px / 560px = 0.01785714285714 */
+  margin: 100px 50px; /* 10px / 1000px = .01 */
+  width: 30%; /* 560px / 1000px = .56 */
+    height: 200px;
+}
+
+table { 
+    margin-top: 100px;
+    margin-left: 150px;
+width: 600px;
+    height: 600px;
+
+}
+
+
+
+/* Navigation */
+ 
+ li  {
+  float: left;
+  list-style: none;
+   
+    color:white;
+        padding: 5px;
+    align-content:bottom;
+}
+
+
+
+ul {
+  float: left;
+  list-style: none;
+  
+    color:white;
+        
+    align-content:top;
+}
+
+a:link {
+    
+   color: white;
+  border: 50px;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3em;
+  height: 50px;
+  width: 100px;
+    margin-top: 80px;
+    
+
+}
+
+a:hover {
+  border-radius: 10px;
+  
+  color: sandybrown;
+  transition: all .5s;
+  background: -webkit: 
+}
+body {
+  background-image: url("../img/webbackground1.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+    background-position: 70px 120px;
+    
+        
+        }
+}
+p {
+   font-family:
+    color: black;
+   
+    border: none;
+    padding: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    
+}
+
+$("p").letterfx({"fx":"fly-right fly-bottom spin"});
+
+h1, nav {
+    align-content: top;
+    position:top;
+}
+
+img {width:35%;
+
+   
+    
+    margin-top: 100px; 
+    margin-left: 70px;
+}
+
+.wrapper { 
+    float: left;
+    margin-left: 950px;
+margin-right: 200px; 
+    margin-bottom: 500px;
+border: 50px solid black;
+}
+width: 500px;
+.wrapper ul {float:right ;
+    width: 500px;
+}
+.wrapper h3 { 
+    width: 200px;
+}
+
+
+.main-header{
+ 
+  position:top;
+  width: 100%; /*1000px/ 1000px=1 */
+    background-color: #446;
+    height: 160px;
+}
+
+input {
+    float: right;
+    
+    border: 5px solid black;
+  display:inline-block; 
+    background-color: white;
+}
+
+#textarea {
+    float: right;
+    border: 30px solid black;
+    margin-bottom: 100px;
+    
+}
+
+form {float:right;}
+

@@ -1,0 +1,115 @@
+/* Gallery Styling */
+/* Included CSS
+  * Including TreeHouse Grid System 
+  * URL: 
+Inheriting Ben Schwarz's CSS Gallery */
+
+/* Customize the dimensions of your gallery & thumbnails */
+/* Override Inherited Size from Grid System  */
+body {
+  background-color:azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+        }  
+div {background-color:black;}
+a:hover {
+  border-radius: 10px;
+  
+  color: darkred;
+  transition: all .5s;
+  background: -webkit: 
+}
+
+.main-header{
+ 
+  position:top;
+  width: 100%; /*1000px/ 1000px=1 */
+    background-color: #446;
+    height: 160px;
+}
+
+
+li {
+    color:white;
+  float: left;
+  list-style: none;
+  margin: 5px;
+    
+}
+a:link {
+    
+   font-color: white;
+  border: 50px;
+  display: inline;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3em;
+  height: 50px;
+  width: 100px;
+    background: none;
+align-content:top;
+}
+
+
+img {
+    margin-top: 100px;
+    
+    width: 90px }
+
+
+
+h3 {
+  clear: left;
+}
+
+.fullsize {
+  position: relative;
+    
+}
+
+.fullsize img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+/* Use :nth-child to add borders to 1st, 2nd, 3rd */
+li:nth-child(1) a {
+  display: inline;
+  border: none;}
+
+li:nth-child(2) a {
+  display: inline;
+  border: none;}
+
+li:nth-child(3) a {
+  display: inline;
+  border:  none;}
+
+/* Change Borders of Full Size Images */ 
+#fullsize-1:target {
+  border: 20px solid black;
+  z-index: 1;
+}
+#fullsize-2:target {
+  border: 20px solid black;
+  z-index: 2;
+}
+#fullsize-3:target {
+  border: 20px solid black;
+  z-index: 3;
+}
+/*Fancify */
+.fullsize img {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fullsize img:target {
+  opacity: 1;
+    width: 60%;
+    top-margin:120px;
+    left-margin:100px;
+ 

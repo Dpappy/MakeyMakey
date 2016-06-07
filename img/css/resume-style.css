@@ -1,0 +1,91 @@
+body {
+      width: 100%;
+     margin:auto;
+     
+ }
+
+/* Layout */
+
+main.header{
+  
+  margin: 0 auto;
+  width: 100%; /*1000px/ 1000px=1 */
+    background-color: black;
+}
+
+h1 {
+    margin: 55px;
+    display:inline-block;
+    height: 50px;
+float:top;}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align:center;
+    font-size:3em;
+    display: inline-block;
+    background:black;
+    padding: 8px;
+}
+h3{color:white;
+}
+
+* Navigation */
+ 
+li {
+  float: left;
+  list-style: none;
+    background-color:black;
+    color:white;
+        padding: 10px;
+}
+a:link {
+    
+   color: white;
+  border: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3em;
+  height: 50px;
+  width: 100px;
+   
+
+}
+
+a:hover {
+  border-radius: 10px;
+  
+  color: darkred;
+  transition: all .5s;
+  background: -webkit: 
+}
+body {
+  background-image: url("../img/purpleBackgrounddesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+        }
+}
+
+  
+
+   
+p 
+{
+    height: 1000px;
+  float: right;
+    color:white;
+  
+    text-align: left;
+  background:black;
+  padding: 50px; /* 10px / 560px = 0.01785714285714 */
+  margin: 100px 50px; /* 10px / 1000px = .01 */
+   /* 560px / 1000px = .56 */
+   
+}  
+h2{color:white;}  

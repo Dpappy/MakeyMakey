@@ -1,0 +1,42 @@
+
+
+.v {transform: scale(.5);
+transform-origin: 50% 50%;
+transition: all .5s ease-in-out;}
+
+.c {transform: scale(.5);
+transform-origin: 50% 50%;
+transition: all .5s ease-in-out;}
+
+.d {transform: scale(.5);
+transform-origin: 50% 50%;
+transition: all .5s ease-in-out;}
+
+.v{animation:fadeInLeft .5s ease-in-out; scale(.5);}
+.c{animation:fadeInLeft .5s ease-in-out;
+animation:pulse .5s ;}
+.d{animation:fadeInLeft .5s ease-in-out;}
+
+
+svg:hover .v {
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+   fill:orange ;
+}
+
+svg:hover .c {
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+  fill:blue;
+  
+}
+
+svg:hover .d {
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+  fill:white;
+}
+body {
+  
+  background-color: indigo;
+}
