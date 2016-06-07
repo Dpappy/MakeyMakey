@@ -27,6 +27,16 @@ images[4] = new Image();
 images[4].src = "/../img/deerintheForest.jpg";
 images[5] = new Image();
 images[5].src = "/../img/zoom2.jpg";
+images[1] = new Image();
+images[1].src = "/../img/Banana Split Brain.jpg";
+images[2] = new Image();
+images[2].src = "/../img/Asuka.jpg";
+images[3] = new Image();
+images[3].src = "/../img/Ugg.jpg";
+images[4] = new Image();
+images[4].src = "/../img/deerintheForest.jpg";
+images[5] = new Image();
+images[5].src = "/../img/zoom2.jpg";
 
 function swapPic() {
 var imgnum = images.length - 1;
@@ -37,7 +47,7 @@ rand1 = Math.round((imgnum - 1) * randnum) + 1;
 useRand = rand1;
 document.randimg.src = images[useRand].src;
 }
-//  End -->
+
 </script>
 </HEAD>
         
@@ -56,12 +66,13 @@ document.randimg.src = images[useRand].src;
   </ul>
 </nav>       
                    
-    <h1>Portfolio</h1>
+    <h1>Portfolio Makey Makey</h1>
     
     </header>
     
     <center>
-<a onClick="swapPic();", return false><img name="randimg" src="image1.gif"></a><br>
+<a onClick="swapPic();" ><img name="randimg" src="image1.gif"></a><br>
+      
 <p>click to change image<p>
 </center>
 

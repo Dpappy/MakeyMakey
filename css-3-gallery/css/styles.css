@@ -7,7 +7,7 @@ Inheriting Ben Schwarz's CSS Gallery */
 /* Customize the dimensions of your gallery & thumbnails */
 /* Override Inherited Size from Grid System  */
 body {
-  background-color:azure;
+  background-color:.color;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
